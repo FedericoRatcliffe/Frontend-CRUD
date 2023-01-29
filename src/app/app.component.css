@@ -1,0 +1,47 @@
+.DivLogo{
+    margin-top: 0px;
+    padding: 0px;
+}
+
+
+.LogoClass{
+    border: 2px rgb(4, 121, 0) solid;
+    background:rgb(255, 255, 255);
+    width: 200px;
+    height: 70px;
+    margin: 0px;
+    padding: 0px;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+
+nav{
+    background-color: #006838;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px rgb(255, 255, 255) solid;
+}
+
+nav a{
+    color: #ffffff;
+}
+
+/* nav a:hover{
+    color: rgb(174, 0, 255);
+} */
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li{
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}

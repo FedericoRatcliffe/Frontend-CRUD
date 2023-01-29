@@ -1,0 +1,19 @@
+  <!--MENU/NAVBAR-->
+<header>
+  <nav>
+    <div class="DivLogo">
+      <a href="index.html"><img src="../assets/img/logo.svg" alt="" class="LogoClass"></a>
+    </div>
+
+            <!--<div class="toggle">
+                  <a href=""><ion-icon name="menu-outline"></ion-icon></a>
+                </div> -->
+
+    <ul class="menu">
+      <li><button (click)="Listar()" class="btn btn-success">Listar</button></li>
+      <li><button (click)="Nuevo()" class="btn btn-success">Agregar</button></li>
+      <li><button (click)="ListarTurnos()" class="btn btn-success">Turnos</button></li>
+      </ul>
+  </nav>
+</header>
+<router-outlet></router-outlet>
